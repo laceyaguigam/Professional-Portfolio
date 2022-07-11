@@ -65,7 +65,15 @@ body {
 .content {
 
 
-}          
+} 
+
+h3 {
+    font-size: 50px;
+/* adds space under h3 */    
+    margin-bottom: 20px;
+    text-decoration:underline;
+    text-decoration-color:goldenrod;
+}
 
                     /* HERO SECTION */
 .hero {
@@ -76,10 +84,33 @@ body {
     background-image: url("..//assets/images/white-gold-geometric.jpg");
     background-size: cover;
     background-position: center;
+/* flexbox coding*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-attachment: fixed;
+    background-position: 50%;
 }
 
                     /* ABOUT ME SECTION*/
+.about-me {
 
-                    /* WORK/PROJECTS SECTION*/
+}
+                    /* PROJECTS SECTION*/
+.projects {
 
+}
+
+.projects img {
+
+}
                     /* CONTACT ME SECTION */
+.contact-me {
+
+}
+
+
+
+
+
+
