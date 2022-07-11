@@ -1,16 +1,65 @@
 
-/* APPLIES TO WHOLE PAGE */
+                    /* APPLIES TO WHOLE PAGE */
+* {
+    box-sizing: border-box;
+    padding: auto;
+    margin: auto;
+}
+                    /* BODY */
+body {
+    background-color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+                    /* HEADER SECTION*/
+.header {
+    padding: 30px;
+/* flexbox coding */
+    flex-wrap: wrap;
+    justify-content: space-between;
+ /*makes the nav stay in place as you scroll down */   
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+/*background coding */
+    background-image: url(../assets/images/white-gold-geometric.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50%;
+}
 
-/* HEADER SECTION*/
+.header div {
+    padding-top: auto;
+    margin-top: auto;
+    float: left;
+    font-size: 20px;
+    
+}
 
-/* NAVIGATION SECTION*/
+.header div ul li {
+/* shows list horizontally */   
+    display: inline-block;
+    margin: left;
+    list-style-type: none; 
+/* flexbox coding */
+   justify-content: space-between;
+   flex: start;
+  
+       
+    
+}
 
-/* CONTENT SECTION*/
+.header a {
+    color: black;
+    text-decoration: none;
+}
+                    /* NAVIGATION SECTION*/
 
-/* HERO SECTION */
+                    /* CONTENT SECTION*/
 
-/* ABOUT ME SECTION*/
+                    /* HERO SECTION */
 
-/* WORK/PROJECTS SECTION*/
+                    /* ABOUT ME SECTION*/
 
-/* CONTACT ME SECTION */
+                    /* WORK/PROJECTS SECTION*/
+
+                    /* CONTACT ME SECTION */
