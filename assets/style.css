@@ -2,8 +2,8 @@
                     /* APPLIES TO WHOLE PAGE */
 * {
     box-sizing: border-box;
-    padding: auto;
-    margin: auto;
+    padding: 0;
+    margin: 0;
 }
 
 a {
@@ -13,6 +13,13 @@ a {
 
 p {
     font-size: 16px;
+    max-width: 75%;
+}
+
+.float-right {
+    float: right;
+    margin-right: 25px; 
+    border-radius: 8px;
 }
 
                     /* BODY */
@@ -23,11 +30,12 @@ body {
 
                     /* HEADER SECTION*/
 .header {
-    padding: 30px;
-/* flexbox coding */
+    padding: 50px;
+/* flexbox coding */   
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
- /*makes the nav stay in place as you scroll down */   
+    flex-wrap: wrap;
     position: sticky;
     position: -webkit-sticky;
     top: 0;
@@ -38,12 +46,14 @@ body {
     background-position: 50%;
 }
 
+
 /* NAVIGATION SECTION*/
 .header div {
-    padding-top: auto;
+    padding: 20px 30px;
     margin-top: auto;
     float: left;
-    font-size: 20px; 
+    font-size: 30px; 
+
 }
 
 .header div ul li {
@@ -54,50 +64,45 @@ body {
 /* flexbox coding */
    justify-content: space-between;
    flex: start;
+
+}
+
+/*hover for nav */
+.header div ul li a:hover {
+    color: #DEC961;
+    text-shadow: none;
 }
 
 .header a {
     color: black;
     text-decoration: none;
+    padding-top: 50px;
 }
-                    
+              
+
+
                     /* CONTENT SECTION*/
-.content {
-   
-
-
-} 
+ .content img {
+    max-height: 250px;
+/*moved picture to correct place*/    
+    margin-top: 25px;
+    
+}
 
 h3 {
     font-size: 50px;
+    font-style:oblique;
 /* adds space under h3 */    
     margin-bottom: 20px;
     text-decoration:underline;
-    text-decoration-color:goldenrod;
+    text-decoration-color:#DEC961;
+    text-decoration-thickness: 5%;
 
     display: flex;
     flex-wrap: wrap;
     
 }
 
-.name {
-/* moves name up */
-
-text-align: right;
-
-
-}
-
-
-.name h1 {
-    font-size: 60px;
-    font-weight: bold;
-    
-    color: black;
-    text-shadow: 0 0 10px rgba(0,0,0,0.5);
-
-    
-}
 
                     /* HERO SECTION */
 .hero {
@@ -116,38 +121,156 @@ text-align: right;
     background-position: 50%;
 }
 
+.hero h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-align:right;
+    width: 100%;
+    color: black;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding-top: 70px;
+}
+
+
                     /* ABOUT ME SECTION*/
 .about-me {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    background-color:lightgrey;
+    background-color:lightgrey;  
 }
 
-.about-me h3 {
 
-}
                     /* PROJECTS SECTION*/
 .projects {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: 750px;
     background-color: lightgray;
+    flex: wrap;
+    flex-wrap: wrap;
 }
 
-.projects img {
+
+
+.project1 img {
+    display:block;
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    flex: wrap;
+    flex-wrap: wrap;
 
 }
+
+.project-2 img {
+   border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
                     /* CONTACT ME SECTION */
 .contact-me {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    background-color: lightgray;
+    background-color: lightgray; 
+}
+
+.contact-me ul li {
+   height: 50px;
+   width: 300px;
+    /* shows list horizontally */   
+    display: inline-block;
+    margin: left;
+    list-style-type: none; 
+    /* flexbox coding */
+   justify-content: space-between;
+   flex: start;
+}
+
+.contact-info {
+    text-align:center;
+    font-size: 30px;
+    height:100px;
+}
+
+
+.contact-me a {
+    color: black;
+    text-decoration: none;
+}
+
+/*hover for GitHub */
+.contact-me a:hover {
+    color:#DEC961;
+    text-shadow: none;
+
+}
+
+                /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px){
+
+header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+    
+}
+  
+header h1 {
+    width: 100%;
+    text-align: center;
+}
+  
+header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+}
+  
+header nav ul li a {
+    font-size: 20px;
+}
+  
+.about-me {
+    width: 100%;
+}
+
+
+.projects, .projects1 {
+    width: 100%;
+    justify-content: center;
+
+}
+
+.contact-me {
+    width: 100%;
+}
+    
 }
 
 
 
 
 
+                /* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
 
+}
+
+
+
+
+
+                /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+
+  }
