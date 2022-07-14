@@ -322,18 +322,63 @@ header nav ul li a {
     .contact-me a {
         margin-left: 650px;
     }
-    
-
-
-
-
 }
-
-
-
-
 
                 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {
+ header {
+        padding-bottom: 0;
+        justify-content: center;
+        width: 900px;
+    }
+      
+    header nav ul {
+        margin-top: 20px;
+        width: 900px;
+        justify-content: center;
+    }
+      
+    .hero {
+        width: 900px;
+    }
+    
+    .hero h1 {
+        text-align: center; 
+    }
+    
+    header nav ul li a {
+        font-size: 20px;
+        width: 900px;
+    }
+      
+    .about-me {
+        width: 900px;
+    }
+    
+ .float-right {
+     margin-right: auto;   
+    }
 
+    .projects, .projects1 {
+        width: 900px;
+        height:fit-content;
+        justify-content:center;
+        margin-right: auto;
+    }
+    
+    .contact-me {
+        width: 900px;
+    }
+       
+    .contact-info {
+        text-align:left;
+        font-size: 20px;
+        justify-content: space-between;
+        padding-top: 50px;
+        height: fit-content;
+    }
+    
+    .contact-me a {
+        margin-left: 650px;
+    } 
   }
