@@ -1,8 +1,45 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                     /* APPLIES TO WHOLE PAGE */
 
 
-:root {
+/* :root {
     --primary-color: black; 
     --secondary-color: white;
     --tertiary-color: #DEC961;
@@ -31,57 +68,57 @@ p {
     border-radius: 8px;
     display: flex;
     flex-wrap: wrap;
-}
+} */
 
                     /* BODY */
-body {
+/* body {
     background-color: var(--secondary-color);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+} */
 
                     /* HEADER SECTION*/
-.header {
-    padding: 50px;
+/* .header {
+    padding: 50px; */
 /* flexbox coding */   
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    list-style: none; 
+    list-style: none;  */
 /*background coding */
-    background-image: url("../assets/images/white-gold-geometric.jpg");
+    /* background-image: url("../assets/images/white-gold-geometric.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: 50%;
-}
+} */
 
-.fixed-header { 
+/* .fixed-header { 
     position: sticky;
     position: -webkit-sticky;
-    top: 0;  
-}
+    top: 0;   
+}*/
 
 /* NAVIGATION SECTION*/
-.header div {
+/* .header div {
     padding: 20px 30px;
     margin-top: auto;
     float: left;
     font-size: 30px; 
-}
+} */
 
-.header div ul li {
+/* .header div ul li { */
 /* shows list horizontally */   
-    display: inline-block;
+    /* display: inline-block;
     margin: left;
-    list-style-type: none; 
+    list-style-type: none;  */
 /* flexbox coding */
-   justify-content: space-between;
+   /* justify-content: space-between;
    flex: start;
-}
+} */
 
 /*hover for nav */
-.header div ul li a:hover {
+/* .header div ul li a:hover {
     color: var(--tertiary-color);
     text-shadow: none;
 }
@@ -90,45 +127,45 @@ body {
     color: var(--primary-color);
     text-decoration: none;
     padding-top: 50px;
-}
+} */
             
                     /* CONTENT SECTION*/
- .content img {
-    max-height: 250px;
+ /* .content img {
+    max-height: 250px; */
 /*moved picture to correct place*/    
-    margin-top: 25px;
-}
+    /* margin-top: 25px;
+} */
 
-h3 {
+/* h3 {
     font-size: 50px;
-    font-style:oblique;
+    font-style:oblique; */
 /* adds space under h3 */    
-    margin-bottom: 20px;
+    /* margin-bottom: 20px;
     text-decoration:underline;
     text-decoration-color:var(--tertiary-color);
     text-decoration-thickness: 5%;
     display: flex;
     flex-wrap: wrap;
-}
+} */
 
                     /* HERO SECTION */
-.hero {
+/* .hero {
     height: 250px;
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 50px; */
 /* background coding*/
-    background-image: url("..//assets/images/white-gold-geometric.jpg");
+    /* background-image: url("..//assets/images/white-gold-geometric.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center; */
 /* flexbox coding*/
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     justify-content: center;
     background-attachment: fixed;
     background-position: 50%;
-}
+} */
 
-.hero h1 {
+/* .hero h1 {
     font-size: 60px;
     font-weight: bold;
     text-align:right;
@@ -136,27 +173,27 @@ h3 {
     color: var(--primary-color);
     text-shadow: 0 0 10px rgba(0,0,0,0.5);
     padding-top: 70px;
-}
+} */
 
                     /* ABOUT ME SECTION*/
-.about-me {
+/* .about-me {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     background-color:var(--fourth-color);  
-}
+} */
 
                     /* PROJECTS SECTION*/
-.projects {
+/* .projects {
     margin-bottom: 20px;
     padding: 50px;
     height: 750px;
     background-color: var(--fourth-color);
     flex: wrap;
     flex-wrap: wrap;
-}
+} */
 
-.project1 img {
+/* .project1 img {
     display:block;
     max-height: 300px;
     margin-left: auto;
@@ -164,51 +201,51 @@ h3 {
     border-radius: 8px;
     flex: wrap;
     flex-wrap: wrap;
-}
+} */
 
-.project-2 img {
+/* .project-2 img {
    border-radius: 8px;
-}
+} */
 
                     /* CONTACT ME SECTION */
-.contact-me {
+/* .contact-me {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     background-color: lightgray; 
-}
+} */
 
-.contact-me ul li {
+/* .contact-me ul li {
    height: 50px;
    width: 300px;
     /* shows list horizontally */   
-    display: inline-block;
+    /* display: inline-block;
     margin: left;
     list-style-type: none; 
     /* flexbox coding */
-   justify-content: space-between;
-   flex: start;
-}
+   /* justify-content: space-between;
+   flex: start; */
+/* } */ 
 
-.contact-info {
+/* .contact-info {
     text-align:center;
     font-size: 30px;
     height:100px;
-}
+} */
 
-.contact-me a {
+/* .contact-me a {
     color: black;
     text-decoration: none;
-}
+} */ 
 
 /*hover for GitHub */
-.contact-me a:hover {
+/* .contact-me a:hover {
     color:var(--tertiary-color);
     text-shadow: none;
-}
+} */
 
                 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 980px){
+/* @media screen and (max-width: 980px){
 
 header {
     padding-bottom: 0;
@@ -261,11 +298,11 @@ header nav ul li a {
 .contact-me a {
     margin-left: 750px;
 }
-}
+} */
 
 
                 /* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
 
     header {
         padding-bottom: 0;
@@ -322,10 +359,10 @@ header nav ul li a {
     .contact-me a {
         margin-left: 650px;
     }
-}
+} */
 
                 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-  @media screen and (max-width: 575px) {
+  /* @media screen and (max-width: 575px) {
  header {
         padding-bottom: 0;
         justify-content: center;
@@ -381,4 +418,4 @@ header nav ul li a {
     .contact-me a {
         margin-left: 650px;
     } 
-  }
+  } */
