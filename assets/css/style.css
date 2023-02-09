@@ -1,11 +1,18 @@
+/* color palette */
+#3399FF
+#404756
+#A4ABBD 
+
+
+
+
+/* Nav */
 .nav-scroller {
     position:relative;
     z-index: 2;
     height: 2.75rem;
     overflow-y: hidden;
 }
-
-
 .nav-scroller .nav {
     display: flex;
     flex-wrap: nowrap;
@@ -17,12 +24,21 @@
     -webkit-overflow-scrolling: touch;
 }
 
-
-
-
-
-
-
+/* download resume */
+.btn {
+    background-color: lightblue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.btn:hover {
+    background-color:cornflowerblue;
+}
+.download {
+    
+}
 
 
 
