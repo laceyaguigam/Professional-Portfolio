@@ -15,6 +15,7 @@ This portfolio is continuously evolving.
 https://laceyaguigam.github.io/Professional-Portfolio/
 
 
+<img width="1728" alt="portfolio-screenshot" src="https://user-images.githubusercontent.com/105749016/219987409-7fb1d1f7-d8f0-46bc-8b2a-415137dfe2c3.png">
 
 
 ## Contribution
