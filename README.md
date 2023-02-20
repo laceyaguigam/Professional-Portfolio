@@ -1,11 +1,15 @@
 # Professional Portfolio
 
 ## Purpose
-Create a professional portfolio that can be used to display your own personal work and will adapt to different screen sizes.
+My personal responsive portfolio containing links to github that contains multiple projects and my LinkedIn. Information about myself such as education, certifications and a resume can also be found on my portfolio. 
+
+This portfolio is continuously evolving. 
 
 ## Built With
 * HTML
 * CSS
+* Javascript 
+* Bootstrap
 
 ## Website
 https://laceyaguigam.github.io/Professional-Portfolio/
@@ -14,8 +18,5 @@ https://laceyaguigam.github.io/Professional-Portfolio/
 
 
 ## Contribution
-
-*Placeholders found on w3schools.com
-*W3schools.com was also used to assist in html and css code
 
 Made with ❤️ by Lacey Aguigam
