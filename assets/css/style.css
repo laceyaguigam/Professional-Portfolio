@@ -7,7 +7,7 @@
 
 
 /* Nav */
-.nav-scroller {
+/* .nav-scroller {
     position:relative;
     z-index: 2;
     height: 2.75rem;
@@ -22,7 +22,8 @@
     text-align: center;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
-}
+} */
+
 
 /* download resume */
 .btn {
