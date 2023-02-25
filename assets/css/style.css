@@ -7,38 +7,41 @@
 
 /* Background */
 
-* {
+body {
   background-image: url("../images/annie-spratt-0ZPSX_mQ3xI-unsplash.jpg");
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* download resume */
 .btn {
-    background-color: lightblue;
     border: none;
-    color: white;
     padding: 12px 30px;
     cursor: pointer;
     font-size: 20px;
 }
 .btn:hover {
     background-color:cornflowerblue;
+   
+}
+
+.download {
+  text-decoration: none;
+  
+}
+
+
+/* Linkedin button */
+
+.linkedin {
+  border: none;
+  background: none;
+}
+
+/* Github button */
+
+.github {
+  border: none;
+  background:none;
 }
 
 /* projects page */
@@ -93,3 +96,66 @@
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
   }
+
+  /* Animations */
+
+
+/* 
+p {
+  animation-duration: 4s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+} */
+
+/* 
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+} */
+
+
+/* @keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+} */
+
+
+
+
+
