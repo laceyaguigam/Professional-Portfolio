@@ -1,29 +1,30 @@
-/* color palette */
+/* color palette, natural  https://mycolor.space/?hex=%230AB6F3&sub=1 */
 /* #0AB6F3
   #5E97B9
   #EAFCFF
   #E6F4F1*/
 
 
+/* Background */
 
-
-/* Nav */
-/* .nav-scroller {
-    position:relative;
-    z-index: 2;
-    height: 2.75rem;
-    overflow-y: hidden;
+* {
+  background-image: url("../images/annie-spratt-0ZPSX_mQ3xI-unsplash.jpg");
 }
-.nav-scroller .nav {
-    display: flex;
-    flex-wrap: nowrap;
-    padding-bottom: 1rem;
-    margin-top: -1px;
-    overflow-x: auto;
-    text-align: center;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
-} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
