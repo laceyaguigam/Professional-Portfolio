@@ -325,26 +325,46 @@
                
       
                               <!--second list section on bottom left -->
-              <div class="p-4" id="contact">
+              <div class="p-4 " id="contact">
                 <h4 class="fst-italic"> Contact Me</h4>
-                <ol class="list-unstyled">
-                    <li>Phone:(559)589-4952</li>
-                    <li>Email: laceyaguigam.s@icloud.com</li>
-                    <li>
-                        <button class="btn"><i class="fe fe-download">
-                            <a href="./assets/documents/Lacey A Resume .pdf" class="download" download>Resume</i></a> </button>
-                    </li>
-                    <li>
+                <ul class="list-group ">
+                      <!-- Toggle -->
+                            <p>
+                              <button class="btn " type="button" data-bs-toggle="collapse" data-bs-target="#phone" aria-expanded="false" aria-controls="phone">Phone</button>
+                            </p>
+                            <div class="row">
+                              <div class="col">
+                                <div class="collapse multi-collapse" id="phone">
+                                  <div class="card card-body bg-transparent border-0">
+                                    (559) 589-4952
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                      <!-- Toggle-->
+                            <p>
+                              <button class="btn " type="button" data-bs-toggle="collapse" data-bs-target="#email" aria-expanded="false" aria-controls="email">Email</button>
+                            </p>
+                            <div class="row">
+                              <div class="col">
+                                <div class="collapse multi-collapse" id="email">
+                                  <div class="card card-body bg-transparent border-0">
+                                    laceyaguigam.s@icloud.com
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                    <li class="list-group-item bg-transparent border-0">
                         <button class="linkedin" onClick="myLinkedin ()">LinkedIn</button>
                     </li>
-                    <li>
+                    <li class="list-group-item bg-transparent border-0">
                         <button class ="github" onClick="myGithub ()">Github</button>
                     </li>
-                    <!-- <li>
-                      <button onClick="myGithub ()">Github</button> Add Discord
-                  </li> -->
-
-                </ol>
+                    <li class="list-group-item bg-transparent border-0">
+                      <button class="btn" id="download"><i class="fe fe-download">
+                        <a href="./assets/documents/Lacey A Resume .pdf" class="download" download>Resume</i></a> </button>    
+                    </li>
+                </ul>
               </div>
             </div>
           </div>
