@@ -12,12 +12,36 @@ body {
 }
 
 
+
+                                                              /* contact section*/
+
+
+
+/* Modals */
+
+
+
+
+
+
+
+
+
+
+
+.list-group {
+  text-align: center;
+}
+
+
+
 /* download resume */
 .btn {
-    border: none;
+    border:none;
     padding: 12px 30px;
     cursor: pointer;
     font-size: 20px;
+    
 }
 .btn:hover {
     background-color:cornflowerblue;
@@ -26,7 +50,7 @@ body {
 
 .download {
   text-decoration: none;
-  
+  color: black;
 }
 
 
@@ -44,7 +68,7 @@ body {
   background:none;
 }
 
-/* projects page */
+                                                                /* projects page */
 
 .bd-placeholder-img {
     font-size: 1.125rem;
