@@ -11,28 +11,42 @@ body {
   background-image: url("../images/annie-spratt-0ZPSX_mQ3xI-unsplash.jpg");
 }
 
+.me {
+
+  background-image: url("../images/circle-scatter-haikei1.png");
+  background-size:cover;
+  /* background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%); */
+
+  /* background-image: linear-gradient(to right, #243949 0%, #517fa4 100%); */
+
+  /* background-image: linear-gradient( 135deg, #65FDF0 10%, #1D6FA3 100%); */
+
+  
+}
+
+/* background: #2C3E50;  /* fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #4CA1AF, #2C3E50); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/* background: #136a8a;  fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #267871, #136a8a);  Chrome 10-25, Safari 5.1-6 */
+ /* background: linear-gradient(to right, #267871, #136a8a);W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ */
+
+
+
 
 
                                                               /* contact section*/
-
-
-
-/* Modals */
-
-
-
-
-
-
-
-
-
 
 
 .list-group {
   text-align: center;
 }
 
+.contact {
+  text-align: center;
+}
 
 
 /* download resume */
@@ -103,6 +117,8 @@ body {
     fill: currentColor;
   }
 
+  /* Nav */
+
   .nav-scroller {
     position: relative;
     z-index: 2;
@@ -121,12 +137,104 @@ body {
     -webkit-overflow-scrolling: touch;
   }
 
+  .projects {
+    text-decoration: none;
+    color:black;
+  }
   /* Animations */
 
+/* Welcome */
 
-/* 
-p {
-  animation-duration: 4s;
+#welcome{
+  font-family: Oswald;
+  font-size: 100px;
+   animation: Color 4s linear infinite;
+  -webkit-animation: Color 4s ease-in-out infinite;
+  text-shadow: 10px 10px #F0F0F0;
+}
+
+@keyframes Color{
+  0%{
+    color:#0AB6F3;
+  }
+  
+  20%{
+    color:#5E97B9;
+  }
+  
+  40%{
+    color:#EAFCFF;
+  }
+  
+  60%{
+    color:#E6F4F1;
+  }
+  
+  80%{
+    color:#0AB6F3;
+  }
+  
+  100%{
+    color:#AC92EC;
+  }
+}
+
+@-moz-keyframes Color{
+  0%{
+    color:#0AB6F3;
+  }
+  
+  20%{
+    color:#5E97B9;
+  }
+  
+  40%{
+    color:#EAFCFF;
+  }
+  
+  60%{
+    color:#E6F4F1;
+  }
+  
+  80%{
+    color:#0AB6F3;
+  }
+  
+  100%{
+    color:#AC92EC;
+  }
+}
+
+@-webkit-keyframes Color{
+  0%{
+    color:#0AB6F3;
+  }
+  
+  20%{
+    color:#5E97B9;
+  }
+  
+  40%{
+    color:#EAFCFF;
+  }
+  
+  60%{
+    color:#E6F4F1;
+  }
+  
+  80%{
+    color:#0AB6F3;
+  }
+  
+  100%{
+    color:#AC92EC;
+  }
+}
+
+
+
+#me {
+  animation-duration: 2s;
   animation-name: slidein;
 }
 
@@ -140,31 +248,41 @@ p {
     margin-left: 0%;
     width: 100%;
   }
-} */
+}
 
-/* 
-p {
-  animation-duration: 3s;
+
+#developer {
+  animation-delay: 5s;
+  animation-duration: 4s;
   animation-name: slidein;
+  animation-fill-mode: both;
+ visibility: hidden;
+
 }
 
 @keyframes slidein {
   from {
     margin-left: 100%;
     width: 300%;
+    visibility: hidden;
+    opacity: 0;
   }
 
   75% {
     font-size: 300%;
     margin-left: 25%;
     width: 150%;
+    visibility: visible;
+    opacity: 1;
   }
 
   to {
     margin-left: 0%;
     width: 100%;
+    visibility: visible;
+    opacity: 1;
   }
-} */
+}
 
 
 /* @keyframes slidein {
