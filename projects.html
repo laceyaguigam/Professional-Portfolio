@@ -24,21 +24,46 @@
                     </button>
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                         <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu?</h5>
+                            <!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5> -->
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
 
-                        <div class="offcanvas-body">
-                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <div class="offcanvas-body text-center justify-content-between">
+                            <ul class="navbar-nav  flex-grow-1 pe-3">
                                 <li class="nav-item">
                                     <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#experience"> Experience </a>
-                                    <a class="nav-link" href="#history"> History </a>
-                                    <a class="nav-link" href="#education">Education </a>
-                                    <a class="nav-link" href="#contact"> Contact </a>
-                                    <a class="nav-link" href="#resume"> Resume </a>
+                                    <li>  <p>
+                                      <button class="btn " type="button" data-bs-toggle="collapse" data-bs-target="#phone" aria-expanded="false" aria-controls="phone">Phone</button>
+                                    </p>
+                                    <div class="row">
+                                      <div class="col">
+                                        <div class="collapse multi-collapse" id="phone">
+                                          <div class="card card-body bg-transparent border-0">
+                                            (559) 589-4952
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div></li>
+                                    <li><p>
+                                      <button class="btn " type="button" data-bs-toggle="collapse" data-bs-target="#email" aria-expanded="false" aria-controls="email">Email</button>
+                                    </p>
+                                    <div class="row">
+                                      <div class="col">
+                                        <div class="collapse multi-collapse" id="email">
+                                          <div class="card card-body bg-transparent border-0">
+                                            laceyaguigam.s@icloud.com
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div></li>
+                                    <li>
+                                      <button class="linkedin" onClick="myLinkedin ()">LinkedIn</button></li>
+                                    <li class="list-group-item bg-transparent border-0">
+                                      <button class ="github" onClick="myGithub ()">Github</button> </li>
+                                    <li><button class="btn" id="download"><i class="fe fe-download">
+                                      <a href="./assets/documents/Lacey A Resume .pdf" class="download" download>Resume</i></a> </button> </li>
                                 </li>
                             </ul>
                         </div>
@@ -47,6 +72,7 @@
             </nav>
         </header>
           
+
           <main>
                                                                                    <!--Hero Section -->
             <section class="py-5 text-center container shadow-lg">
