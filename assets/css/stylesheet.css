@@ -145,7 +145,7 @@ body {
 
 /* Welcome */
 
-#welcome{
+#welcome {
   font-family: Oswald;
   font-size: 100px;
    animation: Color 4s linear infinite;
@@ -252,7 +252,7 @@ body {
 
 
 #developer {
-  animation-delay: 5s;
+  animation-delay: 2s;
   animation-duration: 4s;
   animation-name: slidein;
   animation-fill-mode: both;
@@ -284,18 +284,35 @@ body {
   }
 }
 
+/* #typewriter {
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: .17em;
+  margin: 0 auto;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: .17em solid black;
+  animation: typing 3.5s steps (30, end), blinking-cursor .5s step-end infinite;
+}
 
-/* @keyframes slidein {
+@keyframes typing {
   from {
-    margin-left: 100%;
-    width: 300%;
+    width: 0
   }
-
   to {
-    margin-left: 0%;
-    width: 100%;
+    width: 100%
+  }
+}
+
+@keyframes blinking-cursor {
+  from,
+  to {
+    border-color: transparent
+  }
+  50% {
+    border-color: black;
   }
 } */
+
 
 
 
